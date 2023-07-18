@@ -1,0 +1,174 @@
+
+
+/* Todo Header */
+.Todo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  font-size: calc(40px + 2vmin); 
+  text-decoration:underline;
+  margin-top: 1rem;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.TaskBar
+{
+  display: block;
+  margin: auto;
+  width: 60%;
+  /* padding: 10px; */
+  font-size: larger;
+
+}
+
+
+
+.TaskBar input
+{
+  width: 100%;
+  padding: 10px;
+  font-size: larger;
+  margin: 2rem 0;
+}
+
+/* Todo Task Table */
+.taskTable {
+  border: 2px solid forestgreen;
+  border-radius: 15px;
+  width:100%;
+  height: 50vh;
+  padding-top:2rem; 
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Hide Scrollbar side-lines */
+.taskTable::-webkit-scrollbar{
+  display: none;
+}
+
+.Buttons
+{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+
+/* Button-22 */
+.button-22
+{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.Table
+{
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+
+
+
+
+/* Button-33 */
+.button-33,.button-11 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+/* Button-11 */
+.button-11
+{
+color: white;
+cursor:progress;
+background-color: rgb(250, 99, 73);
+/* background-color: rgba(155, 250, 2, 0.35); */
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.TaskBar1 input
+{
+  /* width: fit-content; */
+  outline: none;
+
+  border-right:none ;
+  border-left:none ;
+}
+
+/* Todo count */
+
+.todoCount
+{
+  display: flex;
+  justify-content:space-between;
+}
+
+/* button-44 */
+.button-44 {
+  --b: 3px; 
+  --s: .45em; 
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-44:hover,
+.button-44:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-44:active {
+  background: var(--color);
+  color: #fff;
+}
+

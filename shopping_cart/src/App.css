@@ -1,0 +1,564 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+
+
+/* Smooth scroll effect */
+
+.cell1 h1
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 7%;
+}
+
+.cell1
+{
+width: 100%;
+  height:90vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.cell1 p
+{
+  margin: auto;
+  width: 70%;
+  line-height: 1.5rem;
+  text-align:justify;
+}
+
+/* CSS */
+.button-9 {
+  
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 10px 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  margin-top: 8rem;
+
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.cell2 img
+{
+  width: 100%;
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.cell2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/* width: 100%; */
+}
+
+
+
+
+.boxes
+{
+  padding:40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 4rem;
+}
+
+
+
+
+.code {
+  color: var(--secondary-color);
+}
+
+.kode {
+  color: var(--primary-color);
+}
+
+.tv {
+  color: var(--secondary-color);
+}
+
+nav {
+  position: fixed;
+	top: 0;
+	left: 0;
+  width: 100%;
+	opacity: 0.9;
+  background:#764abc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  box-shadow: 2px 3px 2px #f1f1f1;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: var(--bold-font);
+}
+
+
+.hamburger {
+  display: none;
+}
+
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+} 
+
+
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #fff;
+  --secondary-color: #ea2027;
+  --background:  #f2f2f2;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box
+{
+  margin-bottom: 5rem;
+
+}
+
+.head
+{
+  text-decoration: underline;
+  font-size: 50px;
+  margin: 2rem 0;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body
+{
+  background-color: var(--background);
+}
+.container
+{
+  padding: 2rem;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 3rem;
+}
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: block;
+  margin:1rem auto;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.CartImg
+{
+  cursor: pointer;
+  width: 2.5rem;
+}
+.container img
+{
+  border-radius: 50%;
+  padding: 10px 20px;
+}
+.container>div
+{
+  padding: 10px;
+  text-align: justify;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;}
+
+  div span
+  {
+    font-size: x-large;
+    font-weight: 700;
+  }
+  @media screen and (max-width:750px) {
+
+    .container
+    {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    }
+      }
+
+  @media screen and (max-width:550px) {
+
+.container
+{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+/* gap: rem; */
+}
+  }
+
+  @media screen and (max-width:350px) {
+
+    .container
+    {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    }
+      }
+
+
+
+.strike {
+  text-decoration: line-through;
+}
+
+.TaskBar
+{
+  display: block;
+  margin: auto;
+  width: 60%;
+  /* padding: 10px; */
+  font-size: larger;
+
+}
+
+
+
+.TaskBar input
+{
+  width: 100%;
+  padding: 10px;
+  font-size: larger;
+  margin: 2rem 0;
+}
+
+/* Todo Task Table */
+.taskTable {
+  border: 2px solid forestgreen;
+  border-radius: 15px;
+  width:100%;
+  height: 50vh;
+  padding-top:2rem; 
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Hide Scrollbar side-lines */
+.taskTable::-webkit-scrollbar{
+  display: none;
+}
+
+.Buttons
+{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+
+/* Button-22 */
+.button-22
+{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.Table
+{
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+
+
+
+
+/* Button-33 */
+.button-33,.button-11 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+/* Button-11 */
+.button-11
+{
+color: white;
+cursor:progress;
+background-color: rgb(250, 99, 73);
+/* background-color: rgba(155, 250, 2, 0.35); */
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.TaskBar1 input
+{
+  /* width: fit-content; */
+  outline: none;
+
+  border-right:none ;
+  border-left:none ;
+}
+
+/* Todo count */
+
+.todoCount
+{
+  display: flex;
+  justify-content:space-between;
+}
+
+/* button-44 */
+.button-44 {
+  --b: 3px; 
+  --s: .45em; 
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-44:hover,
+.button-44:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-44:active {
+  background: var(--color);
+  color: #fff;
+}
+
+
+
+
+/* Cart Component */
+
+.cart-items
+{
+  margin: 30px auto;
+  width: 50%;
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.cart-items-header
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+
+.cart-items-empty
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cart-items-img
+{
+  width: 100px;
+  height: auto;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+
+.cart-items-list
+{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5%;
+}
+
+.cart-items-name,.cart-items-function
+{
+width: 25%;
+}
+
+.cart-items-add,.cart-items-remove
+{
+width: 30px;
+margin-right: 15px;
+font-weight: 700;
+border-radius: 3px;
+border: none;
+font-size: 18px;
+color: #fff;
+cursor: pointer;
+}
+
+.cart-items-add
+{
+  background-color: red;
+}
+
+.cart-items-remove
+{
+  background-color: green;
+}
+
+
+.cart-items-add:active
+{
+  transform: translateY(1.2px);
+}
+
+
+.cart-items-remove:active
+{
+  transform: translateY(1.2px);
+}
+
+
+.cart-items-total-price-name
+{
+  display: flex;
+  padding:20px 0;
+  padding-left: 22%;
+  font-size: 20px;
+  font-weight: 700;
+  border-top:2px solid black;
+}
+
+.cart-items-total-price
+{
+  display: flex;
+  padding-left:45% ;
+}

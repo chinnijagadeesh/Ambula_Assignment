@@ -1,0 +1,404 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* CSS Variables */
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #fff;
+  --secondary-color: #ea2027;
+  --background:  #f2f2f2;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+/* Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: var(--transition);
+}
+
+
+body {
+  font-family: "Roboto", sans-serf;
+  background-color: var(--background);
+}
+
+
+/* CSS */
+.button-9 {
+  
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 10px 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  margin-top: 8rem;
+
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.cell2 img
+{
+  width: 100%;
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.cell2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/* width: 100%; */
+}
+
+
+.box
+{
+  margin-bottom: 5rem; 
+
+}
+
+#about img
+{
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+.boxes
+{
+  padding:40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 4rem;
+}
+
+
+
+
+.code {
+  color: var(--secondary-color);
+}
+
+.kode {
+  color: var(--primary-color);
+}
+
+.tv {
+  color: var(--secondary-color);
+}
+
+nav {
+  position: fixed;
+	top: 0;
+	left: 0;
+  width: 100%;
+	opacity: 0.9;
+	/* background: linear-gradient(#1b2aff, #11dbff); */
+  background:#764abc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  box-shadow: 2px 3px 2px #f1f1f1;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: var(--bold-font);
+}
+
+
+.hamburger {
+  display: none;
+}
+
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+} 
+
+
+
+
+
+
+#landing
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
+.cell1 h1
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 7%;
+}
+
+.cell1
+{
+width: 100%;
+  height:90vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.para
+{
+  margin: auto;
+  width: 90%;
+  /* text-align: ; */
+  line-height: 1.5rem;
+  /* text-align:justify; */
+}
+
+
+.head
+{
+  /* padding-top: 5rem; */
+  color: #04AA6D;
+  margin-bottom: 1rem;
+  text-decoration:underline;
+}
+
+.cell1 h1
+{
+  color: var(--secondary-color);
+
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.subHead
+{
+  color: blueviolet;
+
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* Contact Form */
+input,select,textarea
+{
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit]
+{
+ background-color: #04AA6D;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ cursor: pointer; 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.col
+{
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col
+{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Layouts */
+@media screen and (max-width:750px) {
+  .col
+  {
+    width: 100%;
+    margin-top: 0;
+  }
+  input[type=submit]
+  {
+    border-radius: 15px;
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
+  .col img
+  {
+    display: none;
+  }
+  .subHead
+{
+  margin-bottom: 1rem;font-size:large;
+}
+.para
+{
+  margin: auto;
+  width: 100%;
+  /* text-align: ; */
+  line-height: 1.2rem;
+  /* text-align:justify; */
+}
+.button-9 {
+  font-size: 80%;
+  line-height: 1;
+  padding: 8px 20px;
+  position: relative;
+  text-align: center;  
+  touch-action: manipulation;
+  width: 40%;
+  margin-top: 5rem;
+
+}
+
+.logo {
+  display: none;
+}
+
+#about img
+{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.boxes
+{
+grid-template-columns: repeat(2,1fr);
+}
+}
+
+@media screen and (max-width:520px) {
+  
+
+
+#landing
+{
+  /* display: grid; */
+ display: block;
+ width: 80%;
+ margin: auto;
+}
+.cell2
+{
+  display: none;
+}
+
+
+nav {
+  display:block;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+.logo {
+  display: none;
+}
+
+#about img
+{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.boxes
+{
+  display: block;
+}
+}
+
+
+/* about page */
+
